@@ -1,0 +1,9 @@
+# Never commit live malware, raw captures, archives or passwords
+*.exe
+*.dll
+*.zip
+*.pcap
+*.pcapng
+password*.txt
+*.pyc
+__pycache__/

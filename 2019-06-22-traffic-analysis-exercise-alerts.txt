@@ -1,0 +1,112 @@
+------------------------------------------------------------------------
+Count:9 Event#3.86946 2019-06-22 23:47 UTC
+ET POLICY Lets Encrypt Free SSL Cert Observed
+35.226.156.55 -> 10.0.76.193
+IPVer=4 hlen=5 tos=0 dlen=1448 ID=0 flags=0 offset=0 ttl=0 chksum=40566
+Protocol: 6 sport=443 -> dport=49207
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=22943 chksum=0
+------------------------------------------------------------------------
+Count:3 Event#3.86953 2019-06-22 23:48 UTC
+ET CURRENT_EVENTS RIG EK URI Struct Jun 13 2017
+10.0.76.109 -> 37.46.135.170
+IPVer=4 hlen=5 tos=0 dlen=740 ID=0 flags=0 offset=0 ttl=0 chksum=46287
+Protocol: 6 sport=49204 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=21954 chksum=0
+------------------------------------------------------------------------
+Count:11 Event#3.86976 2019-06-22 23:48 UTC
+ETPRO CURRENT_EVENTS RIG EK Landing Apr 04 2017 M5
+37.46.135.170 -> 10.0.76.109
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=45527
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=27574 chksum=0
+------------------------------------------------------------------------
+Count:11 Event#3.86998 2019-06-22 23:48 UTC
+ET INFO Suspicious Possible CollectGarbage in base64 1
+37.46.135.170 -> 10.0.76.109
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=45527
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=27574 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87009 2019-06-22 23:48 UTC
+ET INFO Obfuscated fromCharCode
+37.46.135.170 -> 10.0.76.109
+IPVer=4 hlen=5 tos=0 dlen=1488 ID=0 flags=0 offset=0 ttl=0 chksum=45539
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=56740 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87015 2019-06-22 23:48 UTC
+ET CURRENT_EVENTS RIG EK URI Struct Mar 13 2017 M2
+10.0.76.109 -> 37.46.135.170
+IPVer=4 hlen=5 tos=0 dlen=957 ID=0 flags=0 offset=0 ttl=0 chksum=46070
+Protocol: 6 sport=49203 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=33605 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87016 2019-06-22 23:48 UTC
+ET POLICY Outdated Flash Version M1
+10.0.76.109 -> 37.46.135.170
+IPVer=4 hlen=5 tos=0 dlen=957 ID=0 flags=0 offset=0 ttl=0 chksum=46070
+Protocol: 6 sport=49203 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=33605 chksum=0
+------------------------------------------------------------------------
+Count:7 Event#3.87018 2019-06-22 23:48 UTC
+ETPRO CURRENT_EVENTS RIG EK Flash Exploit Sep 05 2017 (FWS)
+37.46.135.170 -> 10.0.76.109
+IPVer=4 hlen=5 tos=0 dlen=1488 ID=0 flags=0 offset=0 ttl=0 chksum=45539
+Protocol: 6 sport=80 -> dport=49203
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=37603 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87027 2019-06-22 23:48 UTC
+ET TROJAN Generic gate[.].php GET with minimal headers
+10.0.76.109 -> 8.209.83.76
+IPVer=4 hlen=5 tos=0 dlen=180 ID=0 flags=0 offset=0 ttl=0 chksum=1979
+Protocol: 6 sport=49209 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=14175 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87029 2019-06-22 23:48 UTC
+ET TROJAN Trojan Generic - POST To gate.php with no referer
+10.0.76.109 -> 8.209.83.76
+IPVer=4 hlen=5 tos=0 dlen=247 ID=0 flags=0 offset=0 ttl=0 chksum=1912
+Protocol: 6 sport=49211 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=4761 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87030 2019-06-22 23:48 UTC
+ETPRO TROJAN KPOT Stealer Exfiltration M2
+10.0.76.109 -> 8.209.83.76
+IPVer=4 hlen=5 tos=0 dlen=247 ID=0 flags=0 offset=0 ttl=0 chksum=1912
+Protocol: 6 sport=49211 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=4761 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.87031 2019-06-22 23:48 UTC
+ET TROJAN Trojan Generic - POST To gate.php with no accept headers
+10.0.76.109 -> 8.209.83.76
+IPVer=4 hlen=5 tos=0 dlen=247 ID=0 flags=0 offset=0 ttl=0 chksum=1912
+Protocol: 6 sport=49211 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=4761 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87069 2019-06-23 23:47  UTC
+GPL WEB_CLIENT web bug 0x0 gif attempt
+74.125.138.138 -> 10.0.76.193
+IPVer=4 hlen=5 tos=0 dlen=427 ID=0 flags=0 offset=0 ttl=0 chksum=36229
+Protocol: 6 sport=80 -> dport=49216
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=34079 chksum=0
+------------------------------------------------------------------------
+Count:8 Event#3.87073 2019-06-22 23:49 UTC
+GPL WEB_CLIENT web bug 0x0 gif attempt
+35.226.156.55 -> 10.0.76.193
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=40514
+Protocol: 6 sport=80 -> dport=49261
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=10087 chksum=0

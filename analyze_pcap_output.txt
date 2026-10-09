@@ -1,0 +1,45 @@
+== Capture ==
+packets: 7103
+start:   2019-06-22 23:46:30 UTC
+end:     2019-06-22 23:50:22 UTC
+
+== Host identification (internal 10.0.76.0/24) ==
+10.0.76.6      MAC 00:26:b9:30:5c:aa  DHCP host name: -  Kerberos principals: -
+10.0.76.109    MAC 78:2b:cb:d4:a5:fe  DHCP host name: Bangkok-8ac2-PC  Kerberos principals: BANGKOK-8AC2-PC$, UVHl, bangkok-8ac2-pc$, edris.haight
+10.0.76.193    MAC 00:1f:cf:61:19:64  DHCP host name: Bristol-c71f-PC  Kerberos principals: BRISTOL-C71F-PC$, bristol-c71f-pc$, setsuko.overton
+
+(principals ending in $ are machine accounts; the others are user accounts)
+
+== HTTP request timeline from 10.0.76.109 (UTC) ==
+2019-06-22 23:47:10  23.63.249.144   GET /ncsi.txt HTTP/1.1                                       Host: www.msftncsi.com 
+2019-06-22 23:48:04  91.235.129.60   GET / HTTP/1.1                                               Host: letsdoitquick.site 
+2019-06-22 23:48:05  37.46.135.170   GET /?MTQwMjg3&ZqHoAiAzR&ff5sdfds=xXjQMvWUbRXQDJ3EKvPcT6NMMVHRFUCL2YedmrHZefjac1WkzrvFTF_7 Host: 37.46.135.170 
+2019-06-22 23:48:07  37.46.135.170   GET /?MTg0MzEy&UOViokhlz&aposAqGuAYQhGJO=difference&JhdAxqxZHPMIkeK=difference&dsWGIXdorJR Host: 37.46.135.170 
+2019-06-22 23:48:08  37.46.135.170   GET /favicon.ico HTTP/1.1                                    Host: 37.46.135.170 
+2019-06-22 23:48:09  13.107.21.200   GET /favicon.ico HTTP/1.1                                    Host: www.bing.com 
+2019-06-22 23:48:10  37.46.135.170   GET /?MzU4NjA0&kaZDWzI&AkwenzFXp=perpetual&EIDOXmpaHLIMQ=blackmail&PmNkusRzUKjdxi=known&em Host: 37.46.135.170 
+2019-06-22 23:48:16  37.46.135.170   GET /?NDk4MTE5&tmCVgJMQbeHjv&znbcjFaUOmZy=vest&aTijcut=blackmail&kBgQawTJSFlOAu=difference Host: 37.46.135.170 
+2019-06-22 23:48:23  8.209.83.76     GET /gQBljYzDJBnrt4JX/gate.php HTTP/1.1                      Host: fghjkmgru34.site 
+2019-06-22 23:48:27  8.209.83.76     GET /gQBljYzDJBnrt4JX/gate.php HTTP/1.1                      Host: fghjkmgru34.site 
+2019-06-22 23:48:28  8.209.83.76     POST /gQBljYzDJBnrt4JX/gate.php HTTP/1.1                     Host: fghjkmgru34.site Content-Length: 346854
+2019-06-22 23:48:29  8.209.83.76     POST /gQBljYzDJBnrt4JX/gate.php HTTP/1.1                     Host: fghjkmgru34.site Content-Length: 347545
+
+== Selected external endpoints (packets, total bytes, host->ext bytes, ext->host bytes) ==
+37.46.135.170   pkts=1031  bytes=1289147  tx(to ext)=12197    rx(from ext)=1276950
+8.209.83.76     pkts=1015  bytes=751403   tx(to ext)=722195   rx(from ext)=29208
+91.235.129.60   pkts=12    bytes=2174     tx(to ext)=717      rx(from ext)=1457
+
+== IDS alert summary (from alert text export) ==
+count=9   2019-06-22 23:47 UTC  35.226.156.55 -> 10.0.76.193  ET POLICY Lets Encrypt Free SSL Cert Observed
+count=3   2019-06-22 23:48 UTC  10.0.76.109 -> 37.46.135.170  ET CURRENT_EVENTS RIG EK URI Struct Jun 13 2017
+count=11  2019-06-22 23:48 UTC  37.46.135.170 -> 10.0.76.109  ETPRO CURRENT_EVENTS RIG EK Landing Apr 04 2017 M5
+count=11  2019-06-22 23:48 UTC  37.46.135.170 -> 10.0.76.109  ET INFO Suspicious Possible CollectGarbage in base64 1
+count=2   2019-06-22 23:48 UTC  37.46.135.170 -> 10.0.76.109  ET INFO Obfuscated fromCharCode
+count=1   2019-06-22 23:48 UTC  10.0.76.109 -> 37.46.135.170  ET CURRENT_EVENTS RIG EK URI Struct Mar 13 2017 M2
+count=1   2019-06-22 23:48 UTC  10.0.76.109 -> 37.46.135.170  ET POLICY Outdated Flash Version M1
+count=7   2019-06-22 23:48 UTC  37.46.135.170 -> 10.0.76.109  ETPRO CURRENT_EVENTS RIG EK Flash Exploit Sep 05 2017 (FWS)
+count=2   2019-06-22 23:48 UTC  10.0.76.109 -> 8.209.83.76  ET TROJAN Generic gate[.].php GET with minimal headers
+count=2   2019-06-22 23:48 UTC  10.0.76.109 -> 8.209.83.76  ET TROJAN Trojan Generic - POST To gate.php with no referer
+count=2   2019-06-22 23:48 UTC  10.0.76.109 -> 8.209.83.76  ETPRO TROJAN KPOT Stealer Exfiltration M2
+count=6   2019-06-22 23:48 UTC  10.0.76.109 -> 8.209.83.76  ET TROJAN Trojan Generic - POST To gate.php with no accept headers
+count=8   2019-06-22 23:49 UTC  35.226.156.55 -> 10.0.76.193  GPL WEB_CLIENT web bug 0x0 gif attempt
